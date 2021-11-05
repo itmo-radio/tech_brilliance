@@ -1,8 +1,6 @@
 /*
 
-Softy Pinko
-
-https://templatemo.com/tm-535-softy-pinko
+Codelytic Enterprise
 
 */
 /* ---------------------------------------------
@@ -1612,14 +1610,25 @@ preloader
 
 .itframe_slider{
   position: relative;
-  height: 500px;
-  padding-top: 30px;
-  overflow: auto;
+  height: 300px;
   -webkit-overflow-scrolling: touch; /*<<--- THIS IS THE KEY*/ 
 }
 
 @media(max-width: 400px) {
   .itframe_slider{
-    height: 800px;
+    height: 1500px;
   }
+}
+
+.services  h1{
+  text-align: center;
+  padding-top: 100px;
+  font-weight: 100px;
+}
+
+.services p {
+  text-align: center;
+  padding-top: 10px;
+  font-weight: 500px;
+  font-size: 30px;
 }
